@@ -1,0 +1,12 @@
+[project]
+name = "telegram-webhook"
+version = "0.1.0"
+authors = [{ name = "w1vern", email = "bndvvl@gmail.com" }]
+license = "MIT"
+requires-python = ">=3.13"
+dependencies = [
+    "aiogram>=3.21.0",
+    "dotenv>=0.9.9",
+    "fastapi>=0.116.1",
+    "uvicorn>=0.35.0",
+]
